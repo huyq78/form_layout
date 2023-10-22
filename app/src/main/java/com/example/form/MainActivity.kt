@@ -7,18 +7,7 @@ import com.example.form.databinding.ActivityMainBinding
 import com.example.form.databinding.NonconstraintlayoutBinding
 
 class MainActivity : AppCompatActivity() {
-//    lateinit var binding: ActivityMainBinding
     lateinit var binding : NonconstraintlayoutBinding
-//    override fun onCreate(savedInstanceState: Bundle?) {
-//        super.onCreate(savedInstanceState)
-//        binding = ActivityMainBinding.inflate(layoutInflater)
-//        setContentView(binding.root)
-//        binding.registerBtn.setOnClickListener {
-//            if (!CheckOK()) {
-//                Toast.makeText(this, "You have not filled in enough information", Toast.LENGTH_SHORT).show()
-//            }else Toast.makeText(this, "Success!", Toast.LENGTH_SHORT).show()
-//        }
-//    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
